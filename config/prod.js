@@ -7,4 +7,3 @@ module.exports = {
 };
 
 
-mongodb://stevenProd:password2@ds261078.mlab.com:61078/emaily-prod
