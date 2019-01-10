@@ -25,7 +25,9 @@ module.exports = app => {
 
     // Greate place to send an email!
 
+
     const mailer = new Mailer(survey, surveyTemplate(survey));
+  
 
     try {
       await mailer.send();
